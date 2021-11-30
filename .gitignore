@@ -1,5 +1,6 @@
 node_modules/
 miniprogram_npm
+
 # local env files
 .env.local
 .env.*.local
