@@ -30,10 +30,8 @@
     "*.{js,jsx,ts,tsx,vue}": [
       "eslint --fix"
     ],
-    "{!(package)*.json,*.code-snippets,.!(browserslist)*rc}": [
+    "{!(package)*.json}": [
       "prettier --write--parser json"
-    ],
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    ]
   }
 }
