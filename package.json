@@ -1,6 +1,33 @@
 {
   "name": "betterui",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "better UI components",
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "module": "./dist/hello.es.ts",
+  "main": "./dist/hello.umd.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/hello.es.ts",
+      "require": "./dist/hello.umd.ts"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AliceEt/betterUI.git"
+  },
+  "author": "Ella Wu",
+  "license": "MIT",
+  "readmeFilename": "README.md",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -9,10 +36,12 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "less": "^4.1.2",
     "vue": "^3.2.16",
     "vue-eslint-parser": "^8.0.1"
   },
   "devDependencies": {
+    "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "@vitejs/plugin-vue": "^1.9.3",

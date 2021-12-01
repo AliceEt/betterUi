@@ -18,7 +18,7 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "error",
-    "comma-dangle": ["error", "never"],
+    // "comma-dangle": ["error", "never"],
     "comma-spacing": [
       "error",
       {
@@ -63,7 +63,7 @@
         "after": true
       }
     ],
-    "space-before-function-paren": ["error", "always"],
+    // "space-before-function-paren": ["error", "always"],
     "object-curly-spacing": ["error", "always"],
     "object-curly-newline": ["error", { "multiline": true }],
     "object-property-newline": "error",
