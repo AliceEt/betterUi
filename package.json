@@ -59,7 +59,7 @@
     "*.{js,jsx,ts,tsx,vue}": [
       "eslint --fix"
     ],
-    "{!(package)*.json}": [
+    "!(package)*.json": [
       "prettier --write--parser json"
     ]
   }
