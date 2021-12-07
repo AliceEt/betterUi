@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import HelloWord from './packages/helloword/myHello.vue'
-import ButtonType from './packages/button/myButton.vue'
+import Hello from './packages/hello/index.vue'
+import Button from './packages/button/index.vue'
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWord />
-  <ButtonType />
+  <Hello />
+  <Button />
 </template>
 
 <style>

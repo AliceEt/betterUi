@@ -46,7 +46,7 @@ export default defineConfig({
       input,
       output: {
         dir: path.resolve(__dirname, './dist/packages'),
-        entryFileNames: '[name]/[name].js',
+        entryFileNames: '[name]/index.js',
         assetFileNames: '[name]/index.css',
       },
     },

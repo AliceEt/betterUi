@@ -1,9 +1,9 @@
 import { App } from 'vue'
-import HelloWord from './packages/helloword/myHello.vue'
-import ButtonType from './packages/button/myButton.vue'
+import Hello from './packages/hello/index.vue'
+import Button from './packages/button/index.vue'
 
 function install(app: App) {
-  const packages = [HelloWord, ButtonType]
+  const packages = [Hello, Button]
   packages.forEach((item: any) => {
     if (item.install) {
       app.use(item)

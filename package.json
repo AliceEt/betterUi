@@ -30,7 +30,7 @@
   "readmeFilename": "README.md",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build --config vite.config.build.ts && vite build --config vite.config.build.disperse.ts",
+    "build": "vue-tsc --noEmit && vite build --config vite.config.ts && vite build --config vite.config.build.disperse.ts",
     "serve": "vite preview",
     "prepare": "husky install"
   },
