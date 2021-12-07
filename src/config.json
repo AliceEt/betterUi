@@ -1,0 +1,32 @@
+{
+  "nav": [
+    {
+      "name": "基础组件",
+      "enName": "base",
+      "packages": [
+        {
+          "version": "1.0.0",
+          "name": "HelloWord",
+          "sort": 7,
+          "cName": "头像",
+          "type": "component",
+          "exportEmpty": true,
+          "show": true,
+          "desc": "头像",
+          "author": "ailala"
+        },
+        {
+          "version": "1.0.0",
+          "name": "Button",
+          "sort": 1,
+          "cName": "按钮",
+          "type": "component",
+          "exportEmpty": true,
+          "show": true,
+          "desc": "按钮用于触发一个操作，如提交表单。",
+          "author": "ailala"
+        }
+      ]
+    }
+  ]
+}
